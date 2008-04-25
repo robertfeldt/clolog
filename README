@@ -1,0 +1,60 @@
+    clolog
+    Copyright (c) Robert Feldt. All rights reserved.
+    The use and distribution terms for this software are covered by the
+    Common Public License 1.0 (http://opensource.org/licenses/cpl.php)
+    which can be found in the file CPL.TXT at the root of this distribution.
+    By using this software in any fashion, you are agreeing to be bound by
+        the terms of this license.
+    You must not remove this notice, or any other, from this software.
+    
+clolog - Logic programming in Clojure
+=====================================
+    Author:  Robert Feldt
+    Email:   robert.feldt (at) gmail.com
+    Version: 0.1.0
+    Date:    
+    License: Common Public License
+    
+
+## What is it?
+
+clolog is a small Clojure library for logic programming. It is based on
+the kanren implementations for Scheme.
+
+Links:
+http://kanren.sourceforge.net/
+
+
+## How can I use it?
+
+Here is a small example of how to use clolog:
+    
+
+## Where can I get it?
+
+If you have git you can simply
+
+    git clone git://github.com/robertfeldt/clolog.git
+
+or you can get a tarball of the latest repo version from
+
+    http://github.com/robertfeldt/clolog/tarball/master
+
+To use the library you only need to get the latest stable version of 
+the clolog.clj file here:
+
+    http://github.com/robertfeldt/clolog/tree/master/latest_stable/clolog.clj?raw=true    
+
+## Where can I find more examples?
+
+Check the samples directory.
+
+
+## What is the current status?
+
+Done:
+
+Todo:
+* Translate micro_kanren.scm to Clojure code.
+
+Possible Todos / Ideas:
