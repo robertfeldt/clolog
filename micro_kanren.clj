@@ -33,3 +33,13 @@
           (fn [x] (t (+ x 10))))
       (|| t t)))
    100))
+
+; Point 2: (Prolog-like) Logic variables
+
+; We represent logic variables with Clojure vectors
+(defn var [name] [name])
+(def var? vector?)
+
+; We implement associations of logic variables and their values 
+; (aka substitutions) as Clojure maps.
+(def empty-subst {})
