@@ -12,13 +12,20 @@
 (defn f [x] [])
 (defn t [x] [x])
 
-;
+; Logical disjunction
 (defn || [f1 f2] 
   (fn [x] (lazy-cat (f1 x) (f2 x))))
+
+; Logical conjunction
 (defn && [f1 f2] 
   (fn [x] (apply concat (map f2 (f1 x)))))
 
-(print
+; Tests
+(println ((|| f t) 100))
+(println ((&& t t) 100))
+(println ((|| t t) 100))
+
+(println
   ((||
     (|| f t)
     (&&
